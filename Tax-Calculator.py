@@ -1,0 +1,8 @@
+print('Welcome to the Simple GUI Tax Calculator\n')
+total_amount = input('What is your total amount owed?\n')
+tax = input('Total amount of tax? (In decimal form please)\n')
+total_tax = (int(total_amount) * float(tax))
+print('Total amount of tax being added on is: \n$' + str(total_tax))
+final_amount = (int(total_amount) + int(total_tax))
+print('In total you owe: \n$' + str(final_amount))
+print('Thank you for using our Calculator!')
